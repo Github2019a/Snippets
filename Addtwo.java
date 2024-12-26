@@ -1,7 +1,10 @@
 import java.util.Scanner;
+import java.util.Date;
 
 public class Addtwo {
     public static void main(String[] args) {
+        
+             
         // Create a scanner object for user input
         Scanner scanner = new Scanner(System.in);
 
@@ -29,8 +32,11 @@ public class Addtwo {
 
         // Display the result
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+	System.out.print("Hello, today is: ");
+        System.out.println(new Date());
         
         // Close the scanner
         scanner.close();
+
     }
 }
